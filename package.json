@@ -1,0 +1,29 @@
+{
+  "name": "tiny-webpack",
+  "version": "0.0.1",
+  "description": "手写webpack核心功能",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tiny-webpack"
+  },
+  "bin": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinBirkhoff/tiny-webpack.git"
+  },
+  "keywords": [
+    "tiny",
+    "webpack"
+  ],
+  "author": "Gavin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GavinBirkhoff/tiny-webpack/issues"
+  },
+  "homepage": "https://github.com/GavinBirkhoff/tiny-webpack#readme",
+  "devDependencies": {
+    "eslint-config-lavy": "^1.0.2-Alpha",
+    "lavy": "^1.0.2-Alpha.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
