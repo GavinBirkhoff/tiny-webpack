@@ -25,5 +25,12 @@
     "eslint-config-lavy": "^1.0.2-Alpha",
     "lavy": "^1.0.2-Alpha.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.23.0",
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.2",
+    "@babel/types": "^7.23.0",
+    "ejs": "^3.1.9"
   }
 }
