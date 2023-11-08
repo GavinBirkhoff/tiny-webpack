@@ -1,5 +1,8 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[ejs]": {
+    "editor.formatOnSave": false
+  },
   "editor.formatOnSave": true,
   "prettier.requireConfig": true,
   "eslint.enable": true,
@@ -14,5 +17,8 @@
     "source.fixAll.stylelint": true,
     "source.fixAll.markdownlint": true
   },
-  "editor.guides.highlightActiveIndentation": true
+  "editor.guides.highlightActiveIndentation": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
