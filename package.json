@@ -4,7 +4,8 @@
   "description": "手写webpack核心功能",
   "main": "index.js",
   "scripts": {
-    "dev": "tiny-webpack"
+    "dev": "tiny-webpack",
+    "start": "webpack"
   },
   "bin": "./bin/cli.js",
   "repository": {

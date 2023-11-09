@@ -1,4 +1,5 @@
 function loader(sourceCss) {
+  console.log('style-loader')
   const style = `
     let style = document.createElement('style');
     style.innerHTML = ${JSON.stringify(sourceCss)};

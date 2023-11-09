@@ -1,5 +1,5 @@
 const path = require('path')
-
+const MyPlugin = require('./plugin/myplugin')
 module.exports = {
   mode: 'development',
   // mode: 'production',
@@ -21,5 +21,6 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  plugins: [new MyPlugin()]
 }
